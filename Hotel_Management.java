@@ -204,11 +204,11 @@ public class Hotel_Management {
         selectedRoom.checkOut=actuDateTime;
         System.out.println("Actual room check-out time by "+selectedRoom.customer_name+" is "+selectedRoom.checkOut.format(timeFormatter));
         System.out.println("Total bill have to be pay: "+total_price);
-        /*selectedRoom.customer_name="";
+        selectedRoom.customer_name="";
         selectedRoom.checkIn=null;
         selectedRoom.checkOut=null;
         selectedRoom.is_booked=false;
-        selectedRoom.is_occupied=false;*/
+        selectedRoom.is_occupied=false;
         System.out.println("Your checkout completed.");
     }
     public static void available_and_booked_rooms(List<Room> rooms)
